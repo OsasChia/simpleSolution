@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DPAT_Simple_Solution">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/DPAT_Simple_Solution.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
