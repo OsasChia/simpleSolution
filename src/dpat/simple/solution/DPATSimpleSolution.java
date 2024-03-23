@@ -1,17 +1,7 @@
 package dpat.simple.solution;
 
 public class DPATSimpleSolution {
-    public static void main(String[] args) {
-        UserManager userManager = new UserManager();
-
-        // Adding users with plain text passwords
-        userManager.addUser("user1", "password123");
-        userManager.addUser("admin", "adminpass");
-        
-        // Attempt to authenticate users
-        boolean isAuthenticated = userManager.authenticateUser("user1", "password123");
-        System.out.println("User1 authenticated: " + isAuthenticated);
-        
+    public static void main(String[] args) {       
         // Instantiate Inventory and associated managers
         Inventory inventory = new Inventory();
         CategoryManager categoryManager = new CategoryManager();
